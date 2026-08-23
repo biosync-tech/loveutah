@@ -239,6 +239,14 @@ cite {
     max-width: 900px;
 }
 
+.hero-lede {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    color: var(--color-cream);
+    max-width: 700px;
+    font-weight: 400;
+}
+
 .hero-stats-inline {
     display: flex;
     gap: var(--space-xl);
@@ -282,6 +290,9 @@ cite {
     }
     .hero-title {
         font-size: 1.875rem;
+    }
+    .hero-lede {
+        font-size: 1.0625rem;
     }
     .hero-stats-inline {
         gap: var(--space-md);
