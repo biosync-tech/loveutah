@@ -201,8 +201,6 @@ cite {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%);
-    background-image: url('https://images.unsplash.com/photo-1605748426690-456e0384905b?w=1600&q=85');
     background-size: cover;
     background-position: center;
 }
@@ -239,6 +237,14 @@ cite {
     color: var(--color-white);
     margin-bottom: var(--space-lg);
     max-width: 900px;
+}
+
+.hero-lede {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    color: var(--color-cream);
+    max-width: 700px;
+    font-weight: 400;
 }
 
 .hero-stats-inline {
@@ -284,6 +290,9 @@ cite {
     }
     .hero-title {
         font-size: 1.875rem;
+    }
+    .hero-lede {
+        font-size: 1.0625rem;
     }
     .hero-stats-inline {
         gap: var(--space-md);
