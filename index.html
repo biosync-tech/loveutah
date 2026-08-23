@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wasatch — Utah Living & Property Intelligence</title>
+    <meta name="description" content="Utah real estate market analysis with live data from the Wasatch Front. Expert insights on Eagle Mountain, Lehi, Saratoga Springs, and Utah County markets. Updated August 2026.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="site-title">Wasatch</h1>
+                <p class="site-tagline">Utah Living & Property Intelligence</p>
+            </div>
+            <nav class="main-nav">
+                <a href="#market">Market</a>
+                <a href="#cities">Cities</a>
+                <a href="#schools">Schools</a>
+                <a href="#lifestyle">Lifestyle</a>
+                <a href="#olympics">Olympics</a>
+                <a href="#subscribe">Subscribe</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">Live data · August 22, 2026</h2>
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <div class="stat-label">UT Median</div>
+                        <div class="stat-value">$525K</div>
+                        <div class="stat-change positive">+1.1% YoY</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">30-Yr Fixed</div>
+                        <div class="stat-value">6.65%</div>
+                        <div class="stat-change">Aug 20</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">UT Supply</div>
+                        <div class="stat-value">4.8 mo</div>
+                        <div class="stat-change">17,377 active</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="market" class="market-snapshot">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Market Snapshot</span>
+                <h2 class="section-title">Utah's developing markets</h2>
+                <p class="section-description">The Wasatch Front is one of the fastest-growing corridors in the US. Inventory has improved from 2025 lows — but the story varies sharply by city and county.</p>
+            </div>
+
+            <div class="highlight-stats">
+                <div class="highlight-card">
+                    <div class="highlight-number">$525K</div>
+                    <div class="highlight-label">Statewide Median</div>
+                    <div class="highlight-detail">+1.1% year-over-year</div>
+                    <div class="data-source">Utah Association of REALTORS, July 2026</div>
+                </div>
+                <div class="highlight-card">
+                    <div class="highlight-number">4.8 mo</div>
+                    <div class="highlight-label">Utah Inventory</div>
+                    <div class="highlight-detail">17,377 active listings, 60 DOM</div>
+                    <div class="data-source">UAR as of August 10, 2026</div>
+                </div>
+                <div class="highlight-card">
+                    <div class="highlight-number">4.2 mo</div>
+                    <div class="highlight-label">Utah County Supply</div>
+                    <div class="highlight-detail">3,475 active, 60 DOM</div>
+                    <div class="data-source">Utah County, July 2026</div>
+                </div>
+            </div>
+
+            <div class="market-table-wrapper">
+                <table class="market-table">
+                    <thead>
+                        <tr>
+                            <th>City</th>
+                            <th>Median Price</th>
+                            <th>YoY</th>
+                            <th>Days on Market</th>
+                            <th>Market</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <strong>Lehi</strong>
+                                <span class="city-tag">Silicon Slopes tech hub</span>
+                            </td>
+                            <td>$625,000</td>
+                            <td class="neutral">−0.4%</td>
+                            <td>~60 days</td>
+                            <td><span class="market-badge neutral">Balanced</span></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <strong>Saratoga Springs</strong>
+                                <span class="city-tag">Wasatch Front suburb, buyer-leaning</span>
+                            </td>
+                            <td>$527,450</td>
+                            <td class="neutral">Stable</td>
+                            <td>~6 mo supply</td>
+                            <td><span class="market-badge buyer">Buyer-leaning</span></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <strong>Eagle Mountain</strong>
+                                <span class="city-tag">New-build oversupply</span>
+                            </td>
+                            <td>$519,206</td>
+                            <td class="positive">+4.3%</td>
+                            <td>~60 days</td>
+                            <td><span class="market-badge neutral">Balanced</span></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <strong>South Jordan</strong>
+                                <span class="city-tag">Established Wasatch Front (84095)</span>
+                            </td>
+                            <td>$925,000</td>
+                            <td class="neutral">Q2 SF</td>
+                            <td>~60 days</td>
+                            <td><span class="market-badge seller">Seller's</span></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <strong>Draper</strong>
+                                <span class="city-tag">Tech / finance I-15 corridor (84020)</span>
+                            </td>
+                            <td>$925,000</td>
+                            <td class="neutral">Q2 SF</td>
+                            <td>~60 days</td>
+                            <td><span class="market-badge seller">Seller's</span></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <strong>Salt Lake County</strong>
+                                <span class="city-tag">Single-family Q2 2026</span>
+                            </td>
+                            <td>$645,000</td>
+                            <td class="positive">+4.88%</td>
+                            <td>~60 days</td>
+                            <td><span class="market-badge seller">Seller's</span></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <strong>Spanish Fork</strong>
+                                <span class="city-tag">Utah County south</span>
+                            </td>
+                            <td>$536,250</td>
+                            <td class="neutral">Stable</td>
+                            <td>~60 days</td>
+                            <td><span class="market-badge neutral">Balanced</span></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <strong>Payson</strong>
+                                <span class="city-tag">South Utah County value</span>
+                            </td>
+                            <td>$455,796</td>
+                            <td class="positive">+9.8%</td>
+                            <td>~60 days</td>
+                            <td><span class="market-badge seller">Seller's</span></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <strong>Santaquin</strong>
+                                <span class="city-tag">Affordable south county</span>
+                            </td>
+                            <td>$462,450</td>
+                            <td class="neutral">Stable</td>
+                            <td>~60 days</td>
+                            <td><span class="market-badge neutral">Balanced</span></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <strong>St. George</strong>
+                                <span class="city-tag">Southern Utah boom town</span>
+                            </td>
+                            <td>$517,500</td>
+                            <td class="neutral">~5.2 mo</td>
+                            <td>~65 days</td>
+                            <td><span class="market-badge neutral">Balanced</span></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <strong>Tooele</strong>
+                                <span class="city-tag">Value west of SLC</span>
+                            </td>
+                            <td>$427,500</td>
+                            <td class="neutral">Stable</td>
+                            <td>65 days</td>
+                            <td><span class="market-badge neutral">Balanced</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="table-note">All data July 2026 unless noted. Sources: Best Utah / UtahRealEstate.com (July all-types), KSL / Salt Lake Board of REALTORS (Q2 single-family). Markets classified by months of supply: ~6 months = balanced; under 4 = seller's market; over 6 = buyer-leaning.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="rate-watch">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Rate Watch</span>
+                <h2 class="section-title">This week's mortgage rates</h2>
+                <p class="section-description">National averages · Week of August 20, 2026 · Source: Freddie Mac PMMS</p>
+            </div>
+
+            <div class="rate-grid">
+                <div class="rate-card">
+                    <div class="rate-type">30-Year Fixed</div>
+                    <div class="rate-value">6.65%</div>
+                    <div class="rate-status">Down from 6.82% in June</div>
+                    <p class="rate-detail">Standard choice. Lock if staying 7+ years.</p>
+                </div>
+                <div class="rate-card">
+                    <div class="rate-type">15-Year Fixed</div>
+                    <div class="rate-value">5.95%</div>
+                    <div class="rate-status">Easing from June</div>
+                    <p class="rate-detail">Lower rate, higher monthly. Saves ~$80K interest over life of loan.</p>
+                </div>
+                <div class="rate-card">
+                    <div class="rate-type">FHA 30-Year</div>
+                    <div class="rate-value">~6.35%</div>
+                    <div class="rate-status">Estimated</div>
+                    <p class="rate-detail">3.5% down from 580 FICO. Best entry for first-timers.</p>
+                </div>
+                <div class="rate-card">
+                    <div class="rate-type">5/1 ARM</div>
+                    <div class="rate-value">~6.15%</div>
+                    <div class="rate-status">Estimated</div>
+                    <p class="rate-detail">Fixed 5 years, then adjusts. Consider if selling by 2031.</p>
+                </div>
+            </div>
+
+            <div class="payment-examples">
+                <div class="payment-card">
+                    <div class="payment-amount">$400K · 5% down</div>
+                    <div class="payment-value">$2,422/mo</div>
+                    <div class="payment-detail">P&I · 6.65% · 30-yr</div>
+                </div>
+                <div class="payment-card">
+                    <div class="payment-amount">$500K · 5% down</div>
+                    <div class="payment-value">$3,027/mo</div>
+                    <div class="payment-detail">P&I · 6.65% · 30-yr</div>
+                </div>
+                <div class="payment-card">
+                    <div class="payment-amount">$625K · 5% down</div>
+                    <div class="payment-value">$3,784/mo</div>
+                    <div class="payment-detail">P&I · 6.65% · 30-yr</div>
+                </div>
+            </div>
+            <p class="payment-note">Budget for total: add 15–22% for taxes, insurance, HOA</p>
+        </div>
+    </section>
+
+    <section id="cities" class="city-focus">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Neighborhood Focus</span>
+                <h2 class="section-title">Six cities moving right now</h2>
+                <p class="section-description">Where the data points — and why it matters for your search.</p>
+            </div>
+
+            <div class="city-grid">
+                <article class="city-card">
+                    <div class="city-header">
+                        <div>
+                            <h3 class="city-name">Eagle Mountain</h3>
+                            <p class="city-location">Utah County · New-build market</p>
+                        </div>
+                        <div class="city-stats-compact">
+                            <div class="stat-compact">
+                                <span class="stat-compact-label">Median</span>
+                                <span class="stat-compact-value">$519,206</span>
+                            </div>
+                            <div class="stat-compact">
+                                <span class="stat-compact-label">YoY</span>
+                                <span class="stat-compact-value">+4.3%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="city-description">Eagle Mountain ranked as one of the fastest-growing cities in the entire US for multiple years. The market has shifted: new-build oversupply means ~567 active listings and a more balanced environment. The draw remains: newer construction, lower entry price vs Lehi/Draper, and a young demographic profile bringing schools and retail. With supply up, buyers now have negotiating room — a sharp change from 2024–2025.</p>
+                </article>
+
+                <article class="city-card">
+                    <div class="city-header">
+                        <div>
+                            <h3 class="city-name">Saratoga Springs</h3>
+                            <p class="city-location">Utah County · Buyer-leaning market</p>
+                        </div>
+                        <div class="city-stats-compact">
+                            <div class="stat-compact">
+                                <span class="stat-compact-label">Median</span>
+                                <span class="stat-compact-value">$527,450</span>
+                            </div>
+                            <div class="stat-compact">
+                                <span class="stat-compact-label">Supply</span>
+                                <span class="stat-compact-value">~6 mo</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="city-description">At ~6 months of supply and ~627 active listings, Saratoga Springs is the most buyer-friendly market on the northern Wasatch Front. Highridge subdivision listings are sitting at ~199 days on market. This is a genuine shift: sellers are negotiating, contingencies are back on the table, and inspection periods matter again. If you want time to think and room to negotiate, Saratoga Springs delivers that in August 2026.</p>
+                </article>
+
+                <article class="city-card">
+                    <div class="city-header">
+                        <div>
+                            <h3 class="city-name">Lehi</h3>
+                            <p class="city-location">Utah County · Silicon Slopes tech hub</p>
+                        </div>
+                        <div class="city-stats-compact">
+                            <div class="stat-compact">
+                                <span class="stat-compact-label">Median</span>
+                                <span class="stat-compact-value">$625,000</span>
+                            </div>
+                            <div class="stat-compact">
+                                <span class="stat-compact-label">YoY</span>
+                                <span class="stat-compact-value">−0.4%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="city-description">Lehi sits at the heart of Silicon Slopes — Adobe, Xactware, Qualtrics (despite recent cuts), and dozens of tech employers anchor the city. At $625K (July all-types) and $689K (SF July), it remains one of Utah's most expensive suburbs. The slight YoY decline (−0.4%) reflects inventory normalization, not employer exodus. Single-family in 84043 hit $664,990 in Q2. ~444 active listings, ~5 months supply. Alpine District schools (8/10) keep families paying up.</p>
+                </article>
+
+                <article class="city-card">
+                    <div class="city-header">
+                        <div>
+                            <h3 class="city-name">St. George</h3>
+                            <p class="city-location">Washington County · Southern Utah</p>
+                        </div>
+                        <div class="city-stats-compact">
+                            <div class="stat-compact">
+                                <span class="stat-compact-label">Median</span>
+                                <span class="stat-compact-value">$517,500</span>
+                            </div>
+                            <div class="stat-compact">
+                                <span class="stat-compact-label">Supply</span>
+                                <span class="stat-compact-value">~5.2 mo</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="city-description">St. George was the fastest-growing metro in the US in 2021–2022, and remote-worker migration from California shows no sign of stopping. Washington County sits at ~$544,990 median, ~5.21 months supply. Inventory is looser than SLC but tighter than Denver. The trade: 300+ days of sunshine, red-rock desert scenery, and more negotiating room than the Wasatch Front. Best option if you want warm weather, outdoor access, and a timeline that doesn't force waived contingencies.</p>
+                </article>
+
+                <article class="city-card">
+                    <div class="city-header">
+                        <div>
+                            <h3 class="city-name">South Jordan</h3>
+                            <p class="city-location">Salt Lake County · Established market</p>
+                        </div>
+                        <div class="city-stats-compact">
+                            <div class="stat-compact">
+                                <span class="stat-compact-label">SF Median (84095)</span>
+                                <span class="stat-compact-value">$925,000</span>
+                            </div>
+                            <div class="stat-compact">
+                                <span class="stat-compact-label">Q2 2026</span>
+                                <span class="stat-compact-value">KSL</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="city-description">South Jordan sits at the convergence of two major employment corridors — the Bangerter Highway tech strip and the I-15 finance hub from Sandy to Draper. Employers like Goldman Sachs and eBay pull from South Jordan ZIP codes. Single-family in 84095 hit $925,000 in Q2 — a sharp increase reflecting east-side Canyons District demand. The city has mature infrastructure: schools (Canyons 8/10, Corner Canyon HS 9/10), retail, parks. Stability over speculation.</p>
+                </article>
+
+                <article class="city-card">
+                    <div class="city-header">
+                        <div>
+                            <h3 class="city-name">Draper</h3>
+                            <p class="city-location">Salt Lake County · The Point development</p>
+                        </div>
+                        <div class="city-stats-compact">
+                            <div class="stat-compact">
+                                <span class="stat-compact-label">SF Median (84020)</span>
+                                <span class="stat-compact-value">$925,000</span>
+                            </div>
+                            <div class="stat-compact">
+                                <span class="stat-compact-label">Q2 2026</span>
+                                <span class="stat-compact-value">KSL</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="city-description">Draper anchors the I-15 tech/finance corridor — 1-800 Contacts, Fidelity, eBay, and dozens of mid-market software companies. Single-family in 84020 reached $925,000 in Q2. The Point development (Phase 1 underway, for-sale vertical ~2028) will reshape the city's density and transit profile over the next decade. Canyons District schools (8/10), Corner Canyon outdoor access, and I-15 corridor employment make Draper one of Utah's most stable long-term markets.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="schools" class="schools">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Schools</span>
+                <h2 class="section-title">School district, by the numbers</h2>
+                <p class="section-description">School district is the #1 search filter for families — here's how each city stacks up.</p>
+            </div>
+
+            <div class="school-highlights">
+                <div class="school-highlight-card">
+                    <div class="school-badge">Top-Ranked · Utah County</div>
+                    <h3>Alpine District</h3>
+                    <div class="school-rating">8/10</div>
+                    <p>The highest-rated large district in the state. Serves Eagle Mountain, Lehi, and Saratoga Springs — the reason families keep paying up for northern Utah County. Skyridge High in Lehi leads at 9/10.</p>
+                </div>
+                <div class="school-highlight-card">
+                    <div class="school-badge">Salt Lake County</div>
+                    <h3>Canyons District</h3>
+                    <div class="school-rating">8/10</div>
+                    <p>Covering Draper and east South Jordan. Corner Canyon High (Draper) anchors it at 9/10 — a top draw for the I-15 corridor.</p>
+                </div>
+            </div>
+
+            <div class="school-table-wrapper">
+                <table class="school-table">
+                    <thead>
+                        <tr>
+                            <th>City</th>
+                            <th>District</th>
+                            <th>Score</th>
+                            <th>Top School</th>
+                            <th>Notes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Eagle Mountain</strong></td>
+                            <td>Alpine District</td>
+                            <td><span class="rating-badge high">8/10</span></td>
+                            <td>Cedar Valley HS (8/10)</td>
+                            <td>Top-ranked in Utah County</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Lehi</strong></td>
+                            <td>Alpine District</td>
+                            <td><span class="rating-badge high">8/10</span></td>
+                            <td>Skyridge HS (9/10)</td>
+                            <td>Skyridge consistently highest-rated HS in Utah County</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Saratoga Springs</strong></td>
+                            <td>Alpine District</td>
+                            <td><span class="rating-badge high">8/10</span></td>
+                            <td>Westlake HS (7/10)</td>
+                            <td>Saratoga HS opens fall 2028</td>
+                        </tr>
+                        <tr>
+                            <td><strong>South Jordan</strong></td>
+                            <td>Canyons / Jordan</td>
+                            <td><span class="rating-badge high">8/10</span></td>
+                            <td>Corner Canyon HS (9/10)</td>
+                            <td>Split: Canyons (east) 8/10, Jordan (west) 7/10</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Draper</strong></td>
+                            <td>Canyons District</td>
+                            <td><span class="rating-badge high">8/10</span></td>
+                            <td>Corner Canyon HS (9/10)</td>
+                            <td>Among Utah's highest-rated districts</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Spanish Fork</strong></td>
+                            <td>Nebo District</td>
+                            <td><span class="rating-badge med">7/10</span></td>
+                            <td>Spanish Fork HS (7/10)</td>
+                            <td>Nebo serves south Utah County</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Payson</strong></td>
+                            <td>Nebo District</td>
+                            <td><span class="rating-badge med">7/10</span></td>
+                            <td>Payson HS (7/10)</td>
+                            <td>South Utah County</td>
+                        </tr>
+                        <tr>
+                            <td><strong>St. George</strong></td>
+                            <td>Washington County</td>
+                            <td><span class="rating-badge med">7/10</span></td>
+                            <td>Desert Hills HS (8/10)</td>
+                            <td>Serves greater St. George area</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="table-note">Scores reflect district-level GreatSchools summary ratings (1–10). Quality varies by individual school and neighborhood — verify the specific boundary before you buy.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="lifestyle" class="livability">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Livability & Bikeability</span>
+                <h2 class="section-title">How walkable is it, really?</h2>
+                <p class="section-description">Walk · Bike · Transit scores out of 100, plus outdoor access. <em>Editorial scores based on infrastructure, trail networks, and transit availability.</em></p>
+            </div>
+
+            <p class="livability-intro">Utah is car-dependent outside SLC proper. Most suburbs score low on transit — factor in two-car household costs before you fall in love with a price. The bright spots: Daybreak remains Utah's most walkable master-planned community, Salt Lake City keeps adding protected bike lanes (300 South, 900 South), and the 30-mile Provo River Parkway lifts Provo/Orem's bike score above its suburban peers.</p>
+
+            <div class="livability-grid">
+                <div class="livability-card">
+                    <h3>Salt Lake City</h3>
+                    <div class="outdoor-badge exceptional">Outdoor · Exceptional</div>
+                    <div class="scores">
+                        <div class="score-item">
+                            <span class="score-label">Walk</span>
+                            <span class="score-value">58/100</span>
+                        </div>
+                        <div class="score-item">
+                            <span class="score-label">Bike</span>
+                            <span class="score-value">70/100</span>
+                        </div>
+                        <div class="score-item">
+                            <span class="score-label">Transit</span>
+                            <span class="score-value">52/100</span>
+                        </div>
+                    </div>
+                    <p class="livability-detail">Protected lanes on 300 South & 900 South; 9-Line and Jordan River trails; TRAX</p>
+                </div>
+
+                <div class="livability-card">
+                    <h3>Daybreak</h3>
+                    <div class="outdoor-badge high">Outdoor · High</div>
+                    <div class="scores">
+                        <div class="score-item">
+                            <span class="score-label">Walk</span>
+                            <span class="score-value">48/100</span>
+                        </div>
+                        <div class="score-item">
+                            <span class="score-label">Bike</span>
+                            <span class="score-value">58/100</span>
+                        </div>
+                        <div class="score-item">
+                            <span class="score-label">Transit</span>
+                            <span class="score-value">38/100</span>
+                        </div>
+                    </div>
+                    <p class="livability-detail">19-mile internal trail network around Oquirrh Lake; on-site FrontRunner & TRAX</p>
+                </div>
+
+                <div class="livability-card">
+                    <h3>Provo / Orem</h3>
+                    <div class="outdoor-badge high">Outdoor · High</div>
+                    <div class="scores">
+                        <div class="score-item">
+                            <span class="score-label">Walk</span>
+                            <span class="score-value">42/100</span>
+                        </div>
+                        <div class="score-item">
+                            <span class="score-label">Bike</span>
+                            <span class="score-value">60/100</span>
+                        </div>
+                        <div class="score-item">
+                            <span class="score-label">Transit</span>
+                            <span class="score-value">30/100</span>
+                        </div>
+                    </div>
+                    <p class="livability-detail">Provo River Parkway — 30-mile trail network; UVX bus rapid transit</p>
+                </div>
+
+                <div class="livability-card">
+                    <h3>St. George</h3>
+                    <div class="outdoor-badge exceptional">Outdoor · Exceptional</div>
+                    <div class="scores">
+                        <div class="score-item">
+                            <span class="score-label">Walk</span>
+                            <span class="score-value">30/100</span>
+                        </div>
+                        <div class="score-item">
+                            <span class="score-label">Bike</span>
+                            <span class="score-value">48/100</span>
+                        </div>
+                        <div class="score-item">
+                            <span class="score-label">Transit</span>
+                            <span class="score-value">18/100</span>
+                        </div>
+                    </div>
+                    <p class="livability-detail">62-mile paved trail system; Red Cliffs Desert Reserve trails</p>
+                </div>
+
+                <div class="livability-card">
+                    <h3>Draper</h3>
+                    <div class="outdoor-badge exceptional">Outdoor · Exceptional</div>
+                    <div class="scores">
+                        <div class="score-item">
+                            <span class="score-label">Walk</span>
+                            <span class="score-value">28/100</span>
+                        </div>
+                        <div class="score-item">
+                            <span class="score-label">Bike</span>
+                            <span class="score-value">45/100</span>
+                        </div>
+                        <div class="score-item">
+                            <span class="score-label">Transit</span>
+                            <span class="score-value">30/100</span>
+                        </div>
+                    </div>
+                    <p class="livability-detail">Porter Rockwell Trail; Corner Canyon mountain-bike network</p>
+                </div>
+
+                <div class="livability-card">
+                    <h3>Lehi</h3>
+                    <div class="outdoor-badge high">Outdoor · High</div>
+                    <div class="scores">
+                        <div class="score-item">
+                            <span class="score-label">Walk</span>
+                            <span class="score-value">26/100</span>
+                        </div>
+                        <div class="score-item">
+                            <span class="score-label">Bike</span>
+                            <span class="score-value">40/100</span>
+                        </div>
+                        <div class="score-item">
+                            <span class="score-label">Transit</span>
+                            <span class="score-value">22/100</span>
+                        </div>
+                    </div>
+                    <p class="livability-detail">Murdock Canal Trail; Jordan River Parkway connections</p>
+                </div>
+
+                <div class="livability-card">
+                    <h3>Saratoga Springs</h3>
+                    <div class="outdoor-badge moderate">Outdoor · Moderate</div>
+                    <div class="scores">
+                        <div class="score-item">
+                            <span class="score-label">Walk</span>
+                            <span class="score-value">18/100</span>
+                        </div>
+                        <div class="score-item">
+                            <span class="score-label">Bike</span>
+                            <span class="score-value">32/100</span>
+                        </div>
+                        <div class="score-item">
+                            <span class="score-label">Transit</span>
+                            <span class="score-value">10/100</span>
+                        </div>
+                    </div>
+                    <p class="livability-detail">Jordan River trailheads; Utah Lake shoreline paths; Lake Mountain SD 2027</p>
+                </div>
+
+                <div class="livability-card">
+                    <h3>Eagle Mountain</h3>
+                    <div class="outdoor-badge moderate">Outdoor · Moderate</div>
+                    <div class="scores">
+                        <div class="score-item">
+                            <span class="score-label">Walk</span>
+                            <span class="score-value">12/100</span>
+                        </div>
+                        <div class="score-item">
+                            <span class="score-label">Bike</span>
+                            <span class="score-value">28/100</span>
+                        </div>
+                        <div class="score-item">
+                            <span class="score-label">Transit</span>
+                            <span class="score-value">6/100</span>
+                        </div>
+                    </div>
+                    <p class="livability-detail">Pony Express Trail; limited connected network</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="olympics" class="olympics">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Special Report · 2034 Winter Olympics</span>
+                <h2 class="section-title">Salt Lake is hosting again. The clock is already running.</h2>
+                <p class="section-description">Salt Lake City is officially hosting the 2034 Winter Olympics — ceremonies at Rice-Eccles, events at the Delta Center, an athletes village downtown, and competition venues spread from Park City to Soldier Hollow. <em>Estimates below are projections, not guarantees.</em></p>
+            </div>
+
+            <div class="olympics-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-year">2026</div>
+                    <div class="timeline-label">Infrastructure begins</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2028</div>
+                    <div class="timeline-label">Venue construction</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2030</div>
+                    <div class="timeline-label">Test events</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2032</div>
+                    <div class="timeline-label">Final prep</div>
+                </div>
+                <div class="timeline-item active">
+                    <div class="timeline-year">2034</div>
+                    <div class="timeline-label">The Games</div>
+                </div>
+            </div>
+
+            <div class="olympics-markets">
+                <div class="olympics-card">
+                    <h3>Park City / Summit County</h3>
+                    <div class="olympics-tag direct">Direct venue host</div>
+                    <p class="olympics-venue">Utah Olympic Park, Deer Valley, Park City Mountain</p>
+                    <p class="olympics-projection">Projected 15–22% appreciation by 2030</p>
+                    <p class="olympics-detail">The primary venue host. Where the strongest, earliest price pressure lands.</p>
+                </div>
+
+                <div class="olympics-card">
+                    <h3>Salt Lake City</h3>
+                    <div class="olympics-tag direct">Direct venue host</div>
+                    <p class="olympics-venue">Rice-Eccles ceremonies, Delta Center events, downtown athletes village</p>
+                    <p class="olympics-projection">Est. 10–16% uplift by 2030 based on 2002 precedent</p>
+                    <p class="olympics-detail">SLC hosted in 2002; Wasatch Front values rose ~18% in the four years prior. The urban core captures strongest direct uplift.</p>
+                </div>
+
+                <div class="olympics-card">
+                    <h3>Heber / Midway</h3>
+                    <div class="olympics-tag corridor">Corridor uplift</div>
+                    <p class="olympics-venue">Soldier Hollow cross-country & biathlon venue</p>
+                    <p class="olympics-projection">Emerging market to watch</p>
+                    <p class="olympics-detail">Still affordable relative to Park City — the value play for venue proximity.</p>
+                </div>
+
+                <div class="olympics-card">
+                    <h3>Draper / South Jordan</h3>
+                    <div class="olympics-tag corridor">Corridor uplift</div>
+                    <p class="olympics-venue">I-15 corridor — infrastructure spillover</p>
+                    <p class="olympics-projection">Est. 6–10% uplift by 2030</p>
+                    <p class="olympics-detail">Point-of-the-Mountain transit and road upgrades tied to the Games flow through these corridors.</p>
+                </div>
+
+                <div class="olympics-card">
+                    <h3>Eagle Mountain / Saratoga Springs</h3>
+                    <div class="olympics-tag overflow">Metro overflow</div>
+                    <p class="olympics-venue">~50–55 min to venues</p>
+                    <p class="olympics-projection">Est. 5–8% uplift by 2030 from metro overflow</p>
+                    <p class="olympics-detail">Indirect but real: as venue-adjacent prices climb, priced-out buyers push demand to these markets.</p>
+                </div>
+            </div>
+
+            <p class="olympics-note"><strong>The best window to buy near venues is now</strong> — before the 2028 construction phase triggers the next appreciation spike. All projections are estimates based on 2002 precedent and current market analysis.</p>
+        </div>
+    </section>
+
+    <section class="buyers-guide">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Buyer's Guide</span>
+                <h2 class="section-title">Utah First-Time Buyer Programs</h2>
+                <p class="section-description">Money you may not know about — active programs as of August 2026</p>
+            </div>
+
+            <div class="programs-grid">
+                <div class="program-card">
+                    <div class="program-header">
+                        <h3>UHC FirstHome Loan</h3>
+                        <div class="program-amount">Up to 6%</div>
+                    </div>
+                    <p class="program-description">Utah Housing Corp's flagship loan pairs a competitive 30-year rate with down-payment and closing-cost assistance in one package. The most accessible entry point for most first-time buyers.</p>
+                    <p class="program-requirements">Min 620 FICO · Income limits apply by county</p>
+                </div>
+
+                <div class="program-card">
+                    <div class="program-header">
+                        <h3>UHC Down Payment Assist</h3>
+                        <div class="program-amount">Up to $25,000</div>
+                    </div>
+                    <p class="program-description">A second mortgage covering your down payment and closing costs. 30-year term at 1% above your first mortgage rate — no balloon payment, no large upfront obligation.</p>
+                    <p class="program-requirements">Min 620 FICO · Structured as second mortgage</p>
+                </div>
+
+                <div class="program-card">
+                    <div class="program-header">
+                        <h3>Utah S.B. 240 New Construction</h3>
+                        <div class="program-amount">Up to $20,000</div>
+                    </div>
+                    <p class="program-description">A legislature-funded grant for new builds — applicable to down payment, closing costs, or a permanent interest-rate buydown. Effective for buyers targeting Eagle Mountain or Saratoga Springs where new construction is abundant.</p>
+                    <p class="program-requirements">New construction only · First-time buyer required</p>
+                </div>
+
+                <div class="program-card">
+                    <div class="program-header">
+                        <h3>CDCU Salt Lake City</h3>
+                        <div class="program-amount">Deferred loan</div>
+                    </div>
+                    <p class="program-description">Community Development Corporation of Utah. Deferred loan with zero monthly payments and zero interest — for low-to-moderate-income buyers in SLC, Salt Lake County, and Taylorsville. Forgiven after meeting residency requirements.</p>
+                    <p class="program-requirements">Income limits · SLC metro only · Forgiven after residency</p>
+                </div>
+
+                <div class="program-card">
+                    <div class="program-header">
+                        <h3>Law Enforcement Grant</h3>
+                        <div class="program-amount">Up to $25,000</div>
+                    </div>
+                    <p class="program-description">A grant — not a loan, no repayment — for active law-enforcement officers using a Utah Housing mortgage. Equals up to 3.5% of the purchase price. Quietly one of the most overlooked programs available.</p>
+                    <p class="program-requirements">Active law enforcement · UHC loan required</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="market-context">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">This Month</span>
+                <h2 class="section-title">August 2026 Market Context</h2>
+            </div>
+
+            <div class="context-grid">
+                <div class="context-card">
+                    <h3>Mortgage Lock-In Effect</h3>
+                    <p>Gardner/Wood Jan 2026 forecast: Utah's housing market is "running in place." Approximately 61% of Utah mortgages are locked in under 4%, creating significant inventory constraints as homeowners resist trading up to 6.65% rates.</p>
+                    <p class="context-source">Source: KUER, January 2026</p>
+                </div>
+
+                <div class="context-card">
+                    <h3>Rental Market Shift</h3>
+                    <p>Utah County rents down ~−5.6% YoY with +30% more rental listings (Realtor.com county-level data). As for-sale inventory normalizes and rates stabilize, some would-be buyers are opting to rent and wait.</p>
+                    <p class="context-source">Source: Realtor.com, 2026</p>
+                </div>
+
+                <div class="context-card">
+                    <h3>Qualtrics Cuts</h3>
+                    <p>Qualtrics announced layoffs following the $6.75B acquisition by Press Ganey + Forsta. Utah-specific impact undisclosed. Lehi tech employment remains strong overall, but individual employer volatility continues.</p>
+                    <p class="context-source">Source: Tech press, 2026</p>
+                </div>
+
+                <div class="context-card">
+                    <h3>Data Center Construction</h3>
+                    <p>Gardner report April 2026: 48 data centers operational in Utah. Construction peaked ~2025; modest operations jobs created; water stress concerns remain in drought-constrained regions.</p>
+                    <p class="context-source">Source: Gardner Institute, April 2026</p>
+                </div>
+
+                <div class="context-card">
+                    <h3>The Point (Draper)</h3>
+                    <p>Phase 1 underway. For-sale vertical housing expected ~2028. Will reshape Draper's density and transit profile over the next decade as a major mixed-use development on former prison land.</p>
+                    <p class="context-source">Source: Draper development updates, 2026</p>
+                </div>
+
+                <div class="context-card">
+                    <h3>SB 284 ADU Law</h3>
+                    <p>Effective October 1, 2026: detached ADUs allowed on lots ≥11,000 sq ft. Cities may keep owner-occupancy requirements. Could gradually increase housing supply in established neighborhoods.</p>
+                    <p class="context-source">Source: Utah Legislature, 2026</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="subscribe" class="subscribe">
+        <div class="container">
+            <div class="subscribe-content">
+                <div class="section-header centered">
+                    <h2 class="section-title">The briefing, in your inbox.</h2>
+                    <p class="section-description">Free every week. Market data, city analysis, schools and livability scores, Olympics impact, buyer guides, and program updates — written for people making one of the biggest financial decisions of their lives.</p>
+                </div>
+
+                <div class="subscribe-features">
+                    <div class="feature-item">Weekly Utah market pulse</div>
+                    <div class="feature-item">Schools, livability & lifestyle data</div>
+                    <div class="feature-item">Mortgage rate tracker</div>
+                    <div class="feature-item">2034 Olympics impact watch</div>
+                    <div class="feature-item">First-time buyer program updates</div>
+                </div>
+
+                <form class="subscribe-form" action="#" method="post">
+                    <input type="email" name="email" placeholder="your@email.com" required>
+                    <input type="text" name="honeypot" class="honeypot" placeholder="Don't fill this out:">
+                    <button type="submit">Subscribe free →</button>
+                </form>
+
+                <p class="subscribe-note">No spam. No paid placements. Unsubscribe with one click.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Wasatch</h3>
+                    <p>Utah Living & Property Intelligence</p>
+                    <p class="footer-note">Market data, neighborhood insights, and buyer intelligence for the Wasatch Front and beyond.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Your Utah Agent</h4>
+                    <p><strong>Sruthi</strong><br>
+                    Licensed Utah Real Estate Agent</p>
+                    <p><a href="mailto:hello@loveutah.pages.dev">Contact Sruthi</a></p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Data Sources</h4>
+                    <ul class="footer-links">
+                        <li>Utah Association of REALTORS</li>
+                        <li>Salt Lake Board of REALTORS (via KSL)</li>
+                        <li>Freddie Mac PMMS</li>
+                        <li>Best Utah / UtahRealEstate.com</li>
+                        <li>Gardner Policy Institute</li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>About</h4>
+                    <p class="footer-about">This site provides market intelligence and neighborhood analysis for Utah real estate buyers. All data is cited and sourced from public reporting. Last updated August 22, 2026.</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Wasatch Utah Intelligence. Market data for informational purposes only.</p>
+                <p class="footer-disclaimer">Real estate data compiled from public sources. Individual property values and market conditions vary. Consult a licensed agent for specific guidance.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "RealEstateAgent",
+          "@id": "https://loveutah.pages.dev/#agent",
+          "name": "Sruthi",
+          "areaServed": {
+            "@type": "State",
+            "name": "Utah"
+          },
+          "description": "Licensed Utah real estate agent specializing in the Wasatch Front, Utah County, and greater Salt Lake area markets."
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://loveutah.pages.dev/#website",
+          "url": "https://loveutah.pages.dev",
+          "name": "Wasatch — Utah Living & Property Intelligence",
+          "description": "Utah real estate market analysis with live data from the Wasatch Front. Expert insights on Eagle Mountain, Lehi, Saratoga Springs, Salt Lake County, and Utah County markets.",
+          "publisher": {
+            "@id": "https://loveutah.pages.dev/#agent"
+          }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://loveutah.pages.dev/#organization",
+          "name": "Wasatch Utah Intelligence",
+          "url": "https://loveutah.pages.dev",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://loveutah.pages.dev/logo.png"
+          }
+        },
+        {
+          "@type": "NewsArticle",
+          "@id": "https://loveutah.pages.dev/#article",
+          "headline": "Utah Real Estate Market Analysis — August 2026",
+          "description": "Comprehensive market data for Utah's Wasatch Front: statewide median $525K, Utah County $534,950, inventory at 4.2–4.8 months supply. Updated August 22, 2026.",
+          "datePublished": "2026-08-22",
+          "dateModified": "2026-08-22",
+          "author": {
+            "@id": "https://loveutah.pages.dev/#agent"
+          },
+          "publisher": {
+            "@id": "https://loveutah.pages.dev/#organization"
+          }
+        }
+      ]
+    }
+    </script>
+</body>
+</html>
