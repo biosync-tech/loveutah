@@ -4,7 +4,7 @@
   "description": "Utah real estate market intelligence for the Wasatch Front",
   "scripts": {
     "build": "npm run copy",
-    "copy": "mkdir -p dist && cp index.html styles.css robots.txt llms.txt dist/",
+    "copy": "mkdir -p dist && cp index.html styles.css robots.txt llms.txt dist/ && cp -r assets dist/ 2>/dev/null || true",
     "dev": "python3 -m http.server 8000",
     "clean": "rm -rf dist"
   },
