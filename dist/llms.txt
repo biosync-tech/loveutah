@@ -1,0 +1,28 @@
+# Wasatch — Utah Living & Property Intelligence
+
+## Site Purpose
+This site provides market intelligence and neighborhood analysis for Utah real estate buyers. All data is cited from public sources: Utah Association of REALTORS, Salt Lake Board of REALTORS (via KSL), Freddie Mac PMMS, Best Utah / UtahRealEstate.com, and Gardner Policy Institute.
+
+## Key Data (August 2026)
+- Utah statewide median: $525,000 (+1.1% YoY), 4.8 months supply, 17,377 active listings
+- Utah County median: $534,950 (+5.3% YoY), 4.2 months supply
+- Salt Lake County SF median (Q2): $645,000 (+4.88% YoY)
+- 30-year mortgage rate: 6.65% (Aug 20, 2026)
+
+## Market Context
+Utah County markets have normalized from 2024–2025 lows. Saratoga Springs (~6 mo supply, ~627 actives) and Eagle Mountain (~567 actives, new-build oversupply) are buyer-leaning. Lehi ($625K) and Draper/South Jordan ($925K SF in 84020/84095) remain expensive. ~61% of Utah mortgages are locked under 4%, creating inventory constraints (Gardner/Wood Jan 2026).
+
+## Cities Covered
+Eagle Mountain, Lehi, Saratoga Springs, South Jordan, Draper, Spanish Fork, Payson, Santaquin, St. George, Tooele. Salt Lake County single-family data via KSL/Salt Lake Board. All July 2026 unless Q2 2026 noted.
+
+## Schools & Livability
+Alpine District (8/10) serves Eagle Mountain, Lehi, Saratoga Springs. Canyons District (8/10) serves Draper, east South Jordan. Walk/bike/transit scores are editorial estimates based on infrastructure and trail networks — not algorithmic WalkScore data. Utah is car-dependent outside SLC proper.
+
+## 2034 Winter Olympics
+SLC hosting 2034. Estimates (not guarantees): Park City/Summit County 15–22% appreciation by 2030; SLC 10–16%; Heber/Midway emerging; Draper/South Jordan 6–10% corridor uplift; Eagle Mountain/Saratoga Springs 5–8% metro overflow. Based on 2002 precedent (~18% Wasatch Front appreciation in four years prior).
+
+## Agent
+Sruthi, licensed Utah real estate agent. Contact: hello@loveutah.pages.dev
+
+## Last Updated
+August 22, 2026

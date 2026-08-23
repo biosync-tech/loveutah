@@ -1,0 +1,19 @@
+{
+  "name": "loveutah",
+  "version": "1.0.0",
+  "description": "Utah real estate market intelligence for the Wasatch Front",
+  "scripts": {
+    "build": "npm run copy",
+    "copy": "mkdir -p dist && cp index.html styles.css robots.txt llms.txt dist/",
+    "dev": "python3 -m http.server 8000",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "utah",
+    "real-estate",
+    "wasatch-front",
+    "market-data"
+  ],
+  "author": "Biosync",
+  "license": "MIT"
+}

@@ -1,0 +1,25 @@
+# Wasatch Utah Real Estate Intelligence
+# Allow helpful AI search crawlers, block indiscriminate training scrapers
+
+User-agent: *
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+Sitemap: https://loveutah.pages.dev/sitemap.xml
